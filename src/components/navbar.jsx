@@ -1,4 +1,5 @@
 import React from "react"
+import reactLogoIcon from "/src/assets/react.svg"
 
 export default function Navbar(props) {
     return (
@@ -7,7 +8,7 @@ export default function Navbar(props) {
         >
             <img 
                 className="nav--logo_icon"
-                src="src/assets/react.svg"
+                src={reactLogoIcon}
             />
             <h3 className="nav--logo_text">ReactFacts</h3>
             
