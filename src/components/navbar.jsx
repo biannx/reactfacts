@@ -7,7 +7,7 @@ export default function Navbar(props) {
         >
             <img 
                 className="nav--logo_icon"
-                src="public/reacticon-small.png"
+                src="src/assets/react.svg"
             />
             <h3 className="nav--logo_text">ReactFacts</h3>
             
